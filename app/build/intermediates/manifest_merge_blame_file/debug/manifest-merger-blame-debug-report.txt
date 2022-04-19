@@ -1,0 +1,106 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.myapplication"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:5:5-51:19
+12        android:allowBackup="true"
+12-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\ELCOT\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@drawable/transfer_money"
+15-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:7:9-48
+16        android:label="@string/app_name"
+16-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@drawable/transfer_money"
+17-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:9:9-53
+18        android:supportsRtl="true"
+18-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme_white" >
+20-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:11:9-46
+21        <activity
+21-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:13:9-21:20
+22            android:name="com.bank.basic_bank_system.splash_screen"
+22-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:13:19-48
+23            android:screenOrientation="portrait"
+23-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:14:13-49
+24            android:theme="@style/AppTheme.NoActionBar" >
+24-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:15:13-56
+25            <intent-filter>
+25-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:16:13-20:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:17:17-69
+26-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:17:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:19:17-77
+28-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:19:27-74
+29            </intent-filter>
+30        </activity>
+31        <activity
+31-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:23:9-26:20
+32            android:name="com.bank.basic_bank_system.MainActivity"
+32-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:23:19-47
+33            android:screenOrientation="portrait"
+33-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:24:13-49
+34            android:theme="@style/AppTheme.NoActionBar" >
+34-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:25:13-56
+35        </activity>
+36        <activity
+36-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:28:9-32:20
+37            android:name="com.bank.basic_bank_system.user_list"
+37-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:28:19-44
+38            android:label="Banking System"
+38-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:30:13-43
+39            android:screenOrientation="portrait"
+39-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:29:13-49
+40            android:theme="@style/AppTheme" >
+40-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:31:13-44
+41        </activity>
+42        <activity
+42-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:34:9-38:46
+43            android:name="com.bank.basic_bank_system.user_data"
+43-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:34:19-44
+44            android:label="User Details"
+44-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:37:13-41
+45            android:parentActivityName="com.bank.basic_bank_system.user_list"
+45-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:35:13-52
+46            android:screenOrientation="portrait"
+46-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:36:13-49
+47            android:theme="@style/AppTheme" />
+47-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:38:13-44
+48        <activity
+48-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:40:9-43:46
+49            android:name="com.bank.basic_bank_system.sendtouser"
+49-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:40:19-45
+50            android:label="Transfer Money"
+50-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:42:13-43
+51            android:screenOrientation="portrait"
+51-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:41:13-49
+52            android:theme="@style/AppTheme" />
+52-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:43:13-44
+53        <activity
+53-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:45:9-49:46
+54            android:name="com.bank.basic_bank_system.history_list"
+54-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:45:19-47
+55            android:label="Transactions"
+55-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:48:13-41
+56            android:parentActivityName="com.bank.basic_bank_system.user_list"
+56-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:46:13-52
+57            android:screenOrientation="portrait"
+57-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:47:13-49
+58            android:theme="@style/AppTheme" />
+58-->C:\Users\ELCOT\Desktop\intern\Basic-Banking-App\app\src\main\AndroidManifest.xml:49:13-44
+59    </application>
+60
+61</manifest>
